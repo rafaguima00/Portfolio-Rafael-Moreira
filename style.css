@@ -114,18 +114,6 @@ body {
     box-shadow: 12px -12px 6px #201f1f;
 }
 
-/* 
-Possibilidade
-
-.conteudo-curriculo {
-    flex-direction: row-reverse;
-}
-
-.ul-info {
-    align-self:flex-end;
-} 
-*/
-
 .itens-link {
     color: var(--cor-secundaria-fonte);
 }
@@ -147,6 +135,11 @@ Possibilidade
 
 /* Design responsivo */
 @media screen and (max-width: 840px) {
+    .cabecalho-menu {
+        margin-left: 0;
+        justify-content: center;
+    }
+
     .conteudo {
         display: flex;
         flex-direction: column-reverse;
